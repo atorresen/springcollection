@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <title>spring 2024 final crit</title>
+</head>
+
+<body onload="
+  showSlides(1, 0);
+  showSlides(1, 1);
+  showSlides(1, 2);
+  showSlides(1, 3);
+">
+
+  <h1>a collection of small things</h1>
+
+  <table style="width: 100%">
+    <tr>
+      <td colspan="2" class="inequality-cell" title="inequalities">
+        <div class="inequality-container">
+          <div class="slideshow-container">
+            <img class="inequality" src="files/inequality1.png">
+            <img class="inequality" src="files/inequality2.png">
+            <img class="inequality" src="files/inequality3.png">
+            <img class="inequality" src="files/inequality4.png">
+            <img class="inequality" src="files/inequality5.png">
+          </div>
+
+          <br>
+
+          <div class="dots-container">
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <span class="dot inequalitydot" onclick="currentSlide(1, 0)"></span>
+            <span class="dot inequalitydot" onclick="currentSlide(2, 0)"></span>
+            <span class="dot inequalitydot" onclick="currentSlide(3, 0)"></span>
+            <span class="dot inequalitydot" onclick="currentSlide(4, 0)"></span>
+            <span class="dot inequalitydot" onclick="currentSlide(5, 0)"></span>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="primeary-cell" title="prime-ary colors">
+        <div class="primeary-container">
+          <div class="slideshow-container">
+            <img class="primeary" src="files/primeary1.png">
+            <img class="primeary" src="files/primeary2.png">
+            <img class="primeary" src="files/primeary3.png">
+            <img class="primeary" src="files/primeary4.png">
+            <img class="primeary" src="files/primeary5.png">
+          </div>
+
+          <br>
+
+          <div class="dots-container">
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <span class="dot primearydot" onclick="currentSlide(1, 1)"></span>
+            <span class="dot primearydot" onclick="currentSlide(2, 1)"></span>
+            <span class="dot primearydot" onclick="currentSlide(3, 1)"></span>
+            <span class="dot primearydot" onclick="currentSlide(4, 1)"></span>
+            <span class="dot primearydot" onclick="currentSlide(5, 1)"></span>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+          </div>
+        </div>
+      </td>
+
+      <td class="song-cell" title="songs">
+        <div class="song-container">
+          <div class="slideshow-container">
+            <div class="audio-player song">
+              <p>Easing</p>
+              <audio controls controlsList="noplaybackrate">
+                <source src="files/easing.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="audio-player song">
+              <p>Petty Pace</p>
+              <audio controls controlsList="noplaybackrate">
+                <source src="files/pettypace.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="audio-player song">
+              <p>Holding (part 1)</p>
+              <audio controls controlsList="noplaybackrate">
+                <source src="files/holdingpart1.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="audio-player song">
+              <p>Feathers</p>
+              <audio controls controlsList="noplaybackrate">
+                <source src="files/feathers.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="audio-player song">
+              <p>Bittersweet</p>
+              <audio controls controlsList="noplaybackrate">
+                <source src="files/bittersweet.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="dots-container">
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <span class="dot songdot" onclick="currentSlide(1, 2)"></span>
+            <span class="dot songdot" onclick="currentSlide(2, 2)"></span>
+            <span class="dot songdot" onclick="currentSlide(3, 2)"></span>
+            <span class="dot songdot" onclick="currentSlide(4, 2)"></span>
+            <span class="dot songdot" onclick="currentSlide(5, 2)"></span>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2" class="poemGraphic-cell" title="n-tinas (generalized sestinas)">
+        <div class="poemGraphic-container">
+            <div class="poemGraphic">
+              <table class="poemGraphicTable">
+               <td>
+                <p>Two turtles in the twilight<br>
+                He and he are deep in love<br>
+                In a universe alone</p>
+
+                <p>No walking forward out of twilight<br>
+                Deep sigh, leave us alone<br>
+                At night we will not be in love</p>
+
+                <p>Our favorite time of day is twilight<br>
+                No better way to be in love<br>
+                Much simpler time to be alone</p>
+
+                <p>Love fades into a twilight<br>
+                Into a home alone</p>
+              </td>
+              <td><img class="graphic" src="files/3tina.png"></td>
+              </table>
+            </div>
+            <div class="poemGraphic">
+              <table class="poemGraphicTable">
+               <td>
+                 <p>Twenty hoagie rolls<br>
+                 A vicious yelling match<br>
+                 Invited me to town<br>
+                 Threw me a cold to catch</p>
+
+                 <p>The lesson that I caught<br>
+                 Then down the street went rolling<br>
+                 So I followed it through town<br>
+                 And by a goal I lost the match</p>
+
+                 <p>Keep a cover on the matches<br>
+                 Keep them dry so they will catch<br>
+                 We're here to hit the town<br>
+                 Lock the latch and rock and roll</p>
+
+                 <p>Now nineteen hoagie rolls<br>
+                 Kindle a tinder match<br>
+                 Throw me up right out of town<br>
+                 Invite me to a game of catch</p>
+
+                 <p>There is no match for this sick town<br>
+                 I catch a flame, stop, drop, roll down</p>
+              </td>
+              <td><img class="graphic" src="files/4tina.png"></td>
+              </table>
+            </div>
+            <div class="poemGraphic">
+              <table class="poemGraphicTable">
+                <td>
+                  <p>With you Briefly<br>
+                  my mind was a Great Lake<br>
+                  my hands a stream unfrozen<br>
+                  ten trails dripping from my head<br>
+                  A winter pain that finally melts!</p>
+
+                  <p>But briefly.<br>
+                  Back down the melt<br>
+                  an icy lake<br>
+                  expands against my forehead<br>
+                  A messy freeze</p>
+
+                  <p>A thaw too brief<br>
+                  Four days I am frozen<br>
+                  without your warmth to melt<br>
+                  ice picks in my head<br>
+                  a painful, cracking lake.</p>
+
+                  <p>But brief.<br>
+                  Just when the lake<br>
+                  is fully frozen<br>
+                  The pressure in my head<br>
+                  so distant from the melt</p>
+
+                  <p>You briefly<br>
+                  touch a fingernail... The melt<br>
+                  resumes, streams, river, lake,<br>
+                  my vessel head<br>
+                  tickled by a force unfrozen</p>
+
+                  <p>my head again a lake<br>
+                  my hopes beyond the freeze<br>
+                  briefly melting into Muck</p>
+                </td>
+                <td><img class="graphic" src="files/5tina.png"></td>
+              </table>
+            </div>
+
+          <br>
+
+          <div class="dots-container">
+            <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+            <span class="dot poemGraphicdot" onclick="currentSlide(1, 3)"></span>
+            <span class="dot poemGraphicdot" onclick="currentSlide(2, 3)"></span>
+            <span class="dot poemGraphicdot" onclick="currentSlide(3, 3)"></span>
+            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <h1>what am I doing?</h1>
+
+</body>
+
+</html>
