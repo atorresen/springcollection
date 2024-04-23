@@ -46,7 +46,7 @@ table {
 }
 
 .primeary-cell {
-  border: solid #f00;
+  border: solid #fff;
   display: block;
   background: linear-gradient(to top, #0af 50%, transparent 0);
   background-size: 100% 200%;
@@ -56,15 +56,15 @@ table {
 }
 
 .song-cell {
-  border: solid #ff0;
+  border: solid #fff;
 }
 
 .inequality-cell {
-  border: solid #f0f;
+  border: solid #fff;
 }
 
 .poemGraphic-cell {
-  border: solid #0ff;
+  border: solid #fff;
   background: linear-gradient(to top, #0af 50%, transparent 0);
   background-size: 100% 200%;
   background-position: right top;
@@ -78,6 +78,10 @@ table {
   width: 100%;
   border-radius: 3px;
   position: relative;
+}
+
+audio, .audio-player, .song {
+  width: 100%;
 }
 
 .poemGraphicTable {
