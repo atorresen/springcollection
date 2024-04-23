@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: #111;
+  color: #fff;
   font-family: monospace;
   margin: 5% 10%;
 }
@@ -45,8 +45,11 @@ table {
   border-spacing: 30px;
 }
 
+.song-cell, .inequality-cell, .primeary-cell, .poemGraphic-cell {
+  border: solid #0af;
+}
+
 .primeary-cell {
-  border: solid #fff;
   display: block;
   background: linear-gradient(to top, #0af 50%, transparent 0);
   background-size: 100% 200%;
@@ -55,16 +58,7 @@ table {
   animation-delay: 25s;
 }
 
-.song-cell {
-  border: solid #fff;
-}
-
-.inequality-cell {
-  border: solid #fff;
-}
-
 .poemGraphic-cell {
-  border: solid #fff;
   background: linear-gradient(to top, #0af 50%, transparent 0);
   background-size: 100% 200%;
   background-position: right top;
