@@ -37,7 +37,8 @@ h1 {
 }
 
 .primeary, .song, .inequality, .poemGraphic {
-  display: none;
+  /* display: none; */
+  margin-bottom: 14%;
   width: 100%;
 }
 
